@@ -1,5 +1,5 @@
 <?php
-$bilBulat=897;
+oper$bilBulat=897;
 $bilDesimal=7.98;
 $benarSalah=True;
 $kalimat="Lorem ipsum dolor";
