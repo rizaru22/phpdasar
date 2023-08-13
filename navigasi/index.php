@@ -66,6 +66,19 @@
             
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Array
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="index.php?halaman=array">Array</a></li>
+            <li><a class="dropdown-item" href="index.php?halaman=arrayAso">Array Asosiativ</a></li>
+            <li><a class="dropdown-item" href="index.php?halaman=soalArr1">Soal Array 1</a></li>
+            <li><a class="dropdown-item" href="index.php?halaman=soalArr2">Soal Array 2</a></li>
+            
+            
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
@@ -127,6 +140,18 @@
                 break;
             case "dowhile":
                 include "perulangan/dowhile.php";
+                break;
+            case "array":
+                include "array/array.php";
+                break;
+            case "arrayAso":
+                include "array/arrayAssociative.php";
+                break;
+            case "soalArr1":
+                include "array/soalArray1.php";
+                break;
+            case "soalArr2":
+                include "array/soalArray2.php";
                 break;
             
         
